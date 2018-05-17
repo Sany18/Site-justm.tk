@@ -1,0 +1,185 @@
+body {
+	background-color:#FFF;
+	background-image: url(img/1.jpg);
+	color: #000;
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family:century gothic;
+}
+
+#livesearch {
+	left: 36vw;
+	position: absolute;
+}
+
+#searchBar {
+	position: absolute;
+	position: fixed;
+	top: 8px;
+}
+
+#numberOfResults {
+	position: inherit;
+	left: 150px;
+}
+
+#clock {
+	position: absolute;
+	position: fixed;
+	top: 30px;
+}
+
+#scroll {
+	position: absolute;
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+}
+
+#singers {
+	position: absolute;
+	position: fixed;
+	right: 8px;
+	top: 8px;
+	width: 30vw;
+	text-align: right;
+}
+
+#news {
+	position: absolute;
+	position: fixed;
+	right: 8px;
+	bottom: 8px;
+	width: 25vw;
+}
+
+#BPlayer {
+	background: url(img/playerBg.jpg) no-repeat;	
+	border-radius: 6px;
+	border: 2px solid #fff;
+	width: 473px;
+	height: 70px;
+	position: fixed;
+	top: 15vh;
+	left: 8px;
+	float: right;
+	z-index: 99;
+}
+
+#mobileVersion {
+	position: absolute;
+	position: fixed;
+	bottom: 8px;
+	background-color: rgba(240,240,240,0.8);
+	border-radius: 6px;
+}
+
+.keys {
+	width:30px;
+	height: 30px;
+	position: inherit;
+	border-radius: 5px 5px;	
+	font-weight:700;
+  	color: #000;  	
+	box-shadow: 1px 1px 1px #000;
+  	cursor: pointer;
+  	transition: 3s;
+}
+
+.keys:hover {
+	background: #ffa105;
+	color: #000;
+	transition: 3s;
+}
+
+button {
+	background:rgba(240,240,240,0.8); 
+	border:0px;
+	font-weight:500;
+	border-radius: 5px 5px;
+}
+
+#keyPrev {
+  width: 50px;
+  height: 50px;
+  float: left;
+  background: url(img/player.gif) no-repeat;
+  background-position: -144 -146px;
+}
+
+#keyPlayPause {
+  width: 50px;
+  height: 50px;
+  float: left;
+  background: url(img/player.gif) no-repeat;
+  background-position: -37 -35px;
+}
+
+#keyNext {
+  width: 50px;
+  height: 50px;
+  float: left;
+  background: url(img/player.gif) no-repeat;
+  background-position: -37 -146px;
+}
+
+#pTimer, #bMove , #news {
+	color:rgba(240,240,240,0.8); 
+}
+
+/* Контейнер */
+
+input[type=range] {
+	-webkit-appearance: none;
+	margin: 0px;
+}
+
+input[type=range]:focus {
+	outline: none;
+}
+
+/* Полоса в Хроме */
+
+input[type=range]::-webkit-slider-runnable-track {
+	height: 10px;
+	cursor: pointer;
+	animate: 0.2s;
+	border: 0px;
+	background: #41416d;
+}
+
+/* Бегунок в Хроме */
+
+input[type=range]::-webkit-slider-thumb {
+	box-shadow: 1px 1px 1px #000;
+	height: 10px;
+	width: 10px;
+	border-radius: 2px;
+	background: #ffffff;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+/* Полоса в Мозиле */
+
+input[type=range]::-moz-range-track {
+	height: 10px;
+	cursor: pointer;
+	animate: 0.2s;
+	border: 0px;
+	background: #41416d;
+}
+
+/* Бегунок в Мозиле */
+
+input[type=range]::-moz-range-thumb {
+	box-shadow: 1px 1px 1px #000;
+	height: 10px;
+	width: 10px;
+	border-radius: 2px;
+	background: #ffffff;
+	cursor: pointer;
+	-webkit-appearance: none;
+}

@@ -1,0 +1,15 @@
+<?php
+if($device == DEVICE_TYPE_MPHONE)
+{
+	$shablon = 'log.txt';
+}
+else if($device == DEVICE_TYPE_TABLET)
+{
+	$shablon = 'log.txt';
+}
+else
+{
+	$shablon = 'topPage.php';
+}
+include($shablon);
+?>
